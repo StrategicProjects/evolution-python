@@ -1,4 +1,4 @@
-"""Optional pandas integration (extra: ``evolution-api[pandas]``).
+"""Optional pandas integration (extra: ``evolution-whatsapp[pandas]``).
 
 :func:`as_dataframe` drains a stream of webhook events into a flat ``DataFrame``,
 the analyst-facing equivalent of the R world's ``as_tibble``.
@@ -72,7 +72,7 @@ def as_dataframe(events: Iterable[BaseEvent]) -> pd.DataFrame:
     except ModuleNotFoundError as exc:  # pragma: no cover - import guard
         raise ModuleNotFoundError(
             "pandas is required for as_dataframe(). "
-            'Install the extra: pip install "evolution-api[pandas]".'
+            'Install the extra: pip install "evolution-whatsapp[pandas]".'
         ) from exc
 
     return pd.DataFrame([_row(event) for event in events])

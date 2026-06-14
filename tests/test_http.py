@@ -105,7 +105,7 @@ def test_apikey_header_sent(client: EvoClient, respx_mock: respx.Router) -> None
     route = respx_mock.post(f"{BASE_URL}/message/sendText/{INSTANCE}").mock(return_value=ok())
     client.send_text("5581999990000", "x")
     assert route.calls.last.request.headers["apikey"] == "test-key"
-    assert "evolution-api-python" in route.calls.last.request.headers["user-agent"]
+    assert "evolution-whatsapp-python" in route.calls.last.request.headers["user-agent"]
 
 
 def test_verbose_logs(

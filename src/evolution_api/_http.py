@@ -18,7 +18,7 @@ from .exceptions import EvolutionAPIError, EvolutionConfigError
 if TYPE_CHECKING:
     import httpx
 
-USER_AGENT: Final = f"evolution-api-python/{__version__} (httpx)"
+USER_AGENT: Final = f"evolution-whatsapp-python/{__version__} (httpx)"
 DEFAULT_TIMEOUT: Final = 60.0
 DEFAULT_MAX_RETRIES: Final = 3
 # Statuses worth retrying (transient), in addition to network errors.

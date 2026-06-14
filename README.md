@@ -1,13 +1,13 @@
-# evolution-api
+# evolution-whatsapp
 
 > A modern Python client for [Evolution API v2](https://doc.evolution-api.com/v2) —
 > send and receive WhatsApp messages from Python.
 
-[![PyPI](https://img.shields.io/pypi/v/evolution-api.svg)](https://pypi.org/project/evolution-api/)
-[![Python](https://img.shields.io/pypi/pyversions/evolution-api.svg)](https://pypi.org/project/evolution-api/)
+[![PyPI](https://img.shields.io/pypi/v/evolution-whatsapp.svg)](https://pypi.org/project/evolution-whatsapp/)
+[![Python](https://img.shields.io/pypi/pyversions/evolution-whatsapp.svg)](https://pypi.org/project/evolution-whatsapp/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-darkviolet.svg)](LICENSE)
 
-**`evolution-api`** is the Python twin of the R package
+**`evolution-whatsapp`** is the Python twin of the R package
 [**`evolution`**](https://cran.r-project.org/package=evolution)
 ([source](https://github.com/StrategicProjects/evolution)). It keeps the same
 mental model — a preconfigured client, `snake_case` `send_*` helpers, `jid()` —
@@ -25,13 +25,13 @@ and adds a modern Python stack:
 ## Installation
 
 ```bash
-pip install evolution-api
+pip install evolution-whatsapp
 # with extras:
-pip install "evolution-api[fastapi]"   # webhook_router()
-pip install "evolution-api[pandas]"    # as_dataframe()
+pip install "evolution-whatsapp[fastapi]"   # webhook_router()
+pip install "evolution-whatsapp[pandas]"    # as_dataframe()
 ```
 
-> The distribution is `evolution-api`; the import name is **`evolution_api`**
+> The distribution is `evolution-whatsapp`; the import name is **`evolution_api`**
 > (the bare `evolution` import is already taken on PyPI — see `DECISIONS.md`).
 
 ## Quick start

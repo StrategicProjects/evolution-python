@@ -1,4 +1,4 @@
-site_name: evolution-api
+site_name: evolution-whatsapp
 site_description: A modern Python client for the Evolution API v2 (WhatsApp) — the twin of the R 'evolution' package.
 repo_url: https://github.com/StrategicProjects/evolution-python
 repo_name: StrategicProjects/evolution-python

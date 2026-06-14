@@ -1,6 +1,6 @@
 # Decisions
 
-Design decisions for the Python `evolution-api` package and the *why* behind
+Design decisions for the Python `evolution-whatsapp` package and the *why* behind
 each. The R package [`StrategicProjects/evolution`](https://github.com/StrategicProjects/evolution)
 (CRAN) is the contract we mirror.
 
@@ -14,11 +14,15 @@ value is **R-parity + a modern stack (httpx sync/async, pydantic v2, structlog)
 the whole API surface (groups/labels/calls/profile are out of scope for now).
 
 ## D2 — Distribution & import name
-**Decision:** Distribution `evolution-api`; import `evolution_api`.
-**Why:** `evolution-api` is free on PyPI. The import name `evolution` is *not*
-safe: the existing `evolutionapi` wheel installs a top-level `evolution/` package,
-so `import evolution` would collide in any env that has both. `evolution_api`
-avoids a real collision while staying obvious.
+**Decision:** Distribution `evolution-whatsapp`; import `evolution_api`.
+**Why:** We first chose `evolution-api`, but PyPI rejected it with *"This project
+name is too similar to an existing project"* — its anti-typosquat check strips
+`-_.` separators before comparing, so `evolution-api` collapses to `evolutionapi`,
+the existing package. `evolution-whatsapp` is free and stays distinct even with
+separators removed. The import name stays `evolution_api` (import names aren't
+registered on PyPI, so they don't trip the check); `evolution` itself is unsafe
+because the existing `evolutionapi` wheel installs a top-level `evolution/`
+package that would collide. Dist≠import is common (e.g. `python-dateutil`→`dateutil`).
 
 ## D3 — Client object, not free functions
 **Decision:** Methods on `EvoClient` / `AsyncEvoClient` (`client.send_text(...)`),
@@ -71,8 +75,8 @@ The R `.evo_post` is POST-only; the transport gains a GET path.
 
 ## D10 — Webhook receiving (new vs. R)
 **Decision:** pydantic v2 models for the main events + `parse_webhook(payload)
--> WebhookEvent`; optional extras `evolution-api[fastapi]` (`webhook_router()`)
-and `evolution-api[pandas]` (`as_dataframe(events)`).
+-> WebhookEvent`; optional extras `evolution-whatsapp[fastapi]` (`webhook_router()`)
+and `evolution-whatsapp[pandas]` (`as_dataframe(events)`).
 **Why:** Closes the loop for data pipelines — the R package only sends; this is
 a deliberate differentiator. Event names arrive as `messages.upsert` (dotted,
 lowercase) in webhook payloads vs. `MESSAGES_UPSERT` in config; models accept both.

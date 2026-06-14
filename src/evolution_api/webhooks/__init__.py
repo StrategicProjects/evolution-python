@@ -4,8 +4,8 @@ Core (always available):
     - :func:`parse_webhook` and the event models.
 
 Optional (lazy — require extras so the base install stays light):
-    - ``webhook_router`` — needs ``evolution-api[fastapi]``.
-    - ``as_dataframe`` — needs ``evolution-api[pandas]``.
+    - ``webhook_router`` — needs ``evolution-whatsapp[fastapi]``.
+    - ``as_dataframe`` — needs ``evolution-whatsapp[pandas]``.
 
 Both are importable straight from this package (``from evolution_api.webhooks
 import webhook_router``); the underlying dependency is only imported when you

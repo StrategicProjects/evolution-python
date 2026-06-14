@@ -29,7 +29,7 @@ def test_client_strips_trailing_slash_and_sets_headers() -> None:
     assert headers["apikey"] == "k"
     assert headers["Content-Type"] == "application/json"
     assert headers["User-Agent"] == USER_AGENT
-    assert "evolution-api-python" in USER_AGENT
+    assert "evolution-whatsapp-python" in USER_AGENT
 
 
 def test_client_repr() -> None:

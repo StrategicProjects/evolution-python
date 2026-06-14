@@ -2,7 +2,7 @@ name: Release
 
 # Publishes to PyPI via Trusted Publishing (OIDC) — no token/secret stored.
 # Configure the trusted publisher on PyPI once (see README/DECISIONS):
-#   project: evolution-api | owner: StrategicProjects | repo: evolution-python
+#   project: evolution-whatsapp | owner: StrategicProjects | repo: evolution-python
 #   workflow: release.yml   | environment: pypi
 # Then push a tag like `v0.1.0` (or run manually) to publish.
 

@@ -1,4 +1,4 @@
-"""Optional FastAPI integration (extra: ``evolution-api[fastapi]``).
+"""Optional FastAPI integration (extra: ``evolution-whatsapp[fastapi]``).
 
 Provides :func:`webhook_router`, a pluggable ``APIRouter`` that validates, parses
 and dispatches Evolution webhook events to a user handler.
@@ -53,7 +53,7 @@ def webhook_router(
     except ModuleNotFoundError as exc:  # pragma: no cover - import guard
         raise ModuleNotFoundError(
             "FastAPI is required for webhook_router(). "
-            'Install the extra: pip install "evolution-api[fastapi]".'
+            'Install the extra: pip install "evolution-whatsapp[fastapi]".'
         ) from exc
 
     router = APIRouter()

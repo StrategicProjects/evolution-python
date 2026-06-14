@@ -5,13 +5,13 @@ This mirrors the R package's README so the two feel like one product.
 ## Install
 
 ```bash
-pip install evolution-api
+pip install evolution-whatsapp
 # extras:
-pip install "evolution-api[fastapi]"   # webhook_router()
-pip install "evolution-api[pandas]"    # as_dataframe()
+pip install "evolution-whatsapp[fastapi]"   # webhook_router()
+pip install "evolution-whatsapp[pandas]"    # as_dataframe()
 ```
 
-The distribution is `evolution-api`; the **import name is `evolution_api`**.
+The distribution is `evolution-whatsapp`; the **import name is `evolution_api`**.
 
 ## Create a client
 

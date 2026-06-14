@@ -1,4 +1,4 @@
-"""evolution-api — a modern Python client for the Evolution API v2 (WhatsApp).
+"""evolution-whatsapp — a modern Python client for the Evolution API v2 (WhatsApp).
 
 The Python twin of the R package
 `StrategicProjects/evolution <https://cran.r-project.org/package=evolution>`_:
