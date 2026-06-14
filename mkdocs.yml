@@ -1,0 +1,50 @@
+site_name: evolution-api
+site_description: A modern Python client for the Evolution API v2 (WhatsApp) — the twin of the R 'evolution' package.
+repo_url: https://github.com/StrategicProjects/evolution-python
+repo_name: StrategicProjects/evolution-python
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Quickstart: quickstart.md
+  - Receiving webhooks: webhooks.md
+  - Parity with the R package: parity.md
+  - API reference: reference.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            docstring_style: google
+            show_source: true
+            show_signature_annotations: true
+            separate_signature: true
+            members_order: source
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
