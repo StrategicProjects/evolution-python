@@ -5,6 +5,8 @@
 
 [![PyPI](https://img.shields.io/pypi/v/evolution-whatsapp.svg)](https://pypi.org/project/evolution-whatsapp/)
 [![Python](https://img.shields.io/pypi/pyversions/evolution-whatsapp.svg)](https://pypi.org/project/evolution-whatsapp/)
+[![Docs](https://img.shields.io/badge/docs-mkdocs-blue.svg)](https://strategicprojects.github.io/evolution-python/)
+[![CI](https://github.com/StrategicProjects/evolution-python/actions/workflows/ci.yml/badge.svg)](https://github.com/StrategicProjects/evolution-python/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-darkviolet.svg)](LICENSE)
 
 **`evolution-whatsapp`** is the Python twin of the R package
