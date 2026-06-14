@@ -1,4 +1,4 @@
-# evolution-whatsapp
+# evolution-whatsapp <img src="assets/logo.png" align="right" height="120" alt="evolution logo" />
 
 A modern Python client for [Evolution API v2](https://doc.evolution-api.com/v2) —
 the Python twin of the R package

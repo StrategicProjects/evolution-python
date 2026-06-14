@@ -1,0 +1,57 @@
+/* Match the R pkgdown (tidytemplate) palette: Bootstrap-blue primary #0d6efd. */
+:root {
+  --md-primary-fg-color:        #0d6efd;
+  --md-primary-fg-color--light: #3d8bfd;
+  --md-primary-fg-color--dark:  #0a58ca;
+  --md-accent-fg-color:         #0a58ca;
+  --md-typeset-a-color:         #0d6efd;
+}
+
+/* White navbar with a blue underline, like the tidyverse site's bg-none navbar. */
+.md-header {
+  background-color: #ffffff;
+  color: #1f2329;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-header__title,
+.md-header__topic {
+  color: #1f2329;
+}
+.md-search__form {
+  background-color: rgba(13, 110, 253, 0.06);
+}
+.md-tabs {
+  background-color: #ffffff;
+  color: #1f2329;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-tabs__link {
+  color: #1f2329;
+  opacity: 0.8;
+}
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: var(--md-primary-fg-color);
+  opacity: 1;
+}
+
+/* Slightly larger logo, like the pkgdown brand mark. */
+.md-header__button.md-logo img {
+  height: 2rem;
+  width: 2rem;
+}
+
+/* Code/signature styling closer to pkgdown's roxygen reference blocks. */
+.doc-signature,
+.highlight pre {
+  border-radius: 6px;
+}
+
+/* Footer tone-down to a quiet light strip like pkgdown. */
+.md-footer-meta {
+  background-color: #f6f8fa;
+  color: #57606a;
+}
+.md-footer-meta a {
+  color: var(--md-primary-fg-color);
+}

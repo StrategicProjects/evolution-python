@@ -1,32 +1,49 @@
 site_name: evolution-whatsapp
 site_description: A modern Python client for the Evolution API v2 (WhatsApp) — the twin of the R 'evolution' package.
+site_url: https://strategicprojects.github.io/evolution-python/
 repo_url: https://github.com/StrategicProjects/evolution-python
 repo_name: StrategicProjects/evolution-python
 
+# Footer mirrors the R pkgdown site (light-only, "developed by" + ecosystem blurb).
+copyright: >
+  Developed by André Leite, Diogo Bezerra and Hugo Vasconcelos —
+  part of an ecosystem of packages developed at the
+  <a href="https://monitoramento.sepe.pe.gov.br">Secretaria Executiva de Monitoramento Estratégico</a>.
+
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  # Light-only, to match the R site (dark-mode: false, light-switch: false).
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
   features:
+    - navigation.tabs
     - navigation.sections
+    - navigation.top
+    - navigation.instant
     - content.code.copy
     - content.code.annotate
-  palette:
-    - scheme: default
-      primary: deep purple
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate
-      primary: deep purple
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md
-  - Quickstart: quickstart.md
-  - Receiving webhooks: webhooks.md
-  - Parity with the R package: parity.md
-  - API reference: reference.md
+  - Get started: quickstart.md
+  - Articles:
+      - Receiving webhooks: webhooks.md
+      - Parity with the R package: parity.md
+  - Reference: reference.md
+  - Changelog: changelog.md
 
 plugins:
   - search
@@ -39,12 +56,29 @@ plugins:
             show_source: true
             show_signature_annotations: true
             separate_signature: true
+            show_root_heading: true
+            heading_level: 3
             members_order: source
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
 
 markdown_extensions:
   - admonition
-  - pymdownx.highlight
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.superfences
   - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/StrategicProjects/evolution-python
+    - icon: fontawesome/brands/r-project
+      link: https://cran.r-project.org/package=evolution
+      name: The sibling R package on CRAN
