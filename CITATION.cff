@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "evolution-whatsapp: a modern Python client for the Evolution API v2 (WhatsApp)"
+version: 0.1.1
+date-released: 2026-07-14
+license: MIT
+repository-code: "https://github.com/StrategicProjects/evolution-python"
+url: "https://strategicprojects.github.io/evolution-python/"
+keywords:
+  - whatsapp
+  - evolution-api
+  - messaging
+  - chatbot
+  - httpx
+  - async
+  - python
+authors:
+  - family-names: Leite
+    given-names: "André"
+    email: leite@castlab.org
+    affiliation: "Universidade Federal de Pernambuco"
+  - family-names: Vasconcelos
+    given-names: Hugo
+    email: hugo.vasconcelos@ufpe.br
+    affiliation: "Universidade Federal de Pernambuco"
+  - family-names: Bezerra
+    given-names: Diogo
+    email: diogo.bezerra@ufpe.br
+    affiliation: "Universidade Federal de Pernambuco"

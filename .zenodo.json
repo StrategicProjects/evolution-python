@@ -1,0 +1,33 @@
+{
+  "title": "evolution-whatsapp: a modern Python client for the Evolution API v2 (WhatsApp)",
+  "description": "<p>evolution-whatsapp is a modern Python client for the Evolution API v2 (WhatsApp automation). It is the Python twin of the R package evolution: it mirrors the same function names, parameters and behaviour (a preconfigured client, snake_case send_* helpers, jid()), and adds a modern stack — httpx sync and async clients, pydantic v2 webhook models with parse_webhook(), structlog structured logging, local-file to base64 auto-encoding, automatic retries and typed errors, plus optional FastAPI webhook routing and pandas support for data pipelines.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Leite, André",
+      "affiliation": "Universidade Federal de Pernambuco"
+    },
+    {
+      "name": "Vasconcelos, Hugo",
+      "affiliation": "Universidade Federal de Pernambuco"
+    },
+    {
+      "name": "Bezerra, Diogo",
+      "affiliation": "Universidade Federal de Pernambuco"
+    }
+  ],
+  "keywords": ["whatsapp", "evolution-api", "messaging", "chatbot", "httpx", "async", "python"],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://pypi.org/project/evolution-whatsapp/",
+      "resource_type": "software"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "https://github.com/StrategicProjects/evolution",
+      "resource_type": "software"
+    }
+  ]
+}

@@ -4,18 +4,18 @@ build-backend = "hatchling.build"
 
 [project]
 name = "evolution-whatsapp"
-version = "0.1.0"
+version = "0.1.1"
 description = "A modern Python client for the Evolution API v2 (WhatsApp) — the twin of the R 'evolution' package."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.11"
 authors = [
-  { name = "Andre Leite", email = "leite@de.ufpe.br" },
+  { name = "André Leite", email = "leite@castlab.org" },
   { name = "Hugo Vasconcelos", email = "hugo.vasconcelos@ufpe.br" },
   { name = "Diogo Bezerra", email = "diogo.bezerra@ufpe.br" },
 ]
 maintainers = [
-  { name = "Andre Leite", email = "leite@de.ufpe.br" },
+  { name = "André Leite", email = "leite@castlab.org" },
 ]
 keywords = ["whatsapp", "evolution-api", "evolution", "messaging", "chatbot", "baileys", "httpx", "async"]
 classifiers = [

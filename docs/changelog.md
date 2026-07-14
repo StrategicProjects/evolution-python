@@ -3,9 +3,9 @@
 All notable changes to **evolution-whatsapp** are documented here. The format
 follows the spirit of the R package's `NEWS.md`.
 
-## 0.1.0 (unreleased)
+## 0.1.1 (2026-07-14)
 
-First release — the Python twin of the R
+First published release — the Python twin of the R
 [`evolution`](https://cran.r-project.org/package=evolution) package.
 
 ### Messaging (parity with R)

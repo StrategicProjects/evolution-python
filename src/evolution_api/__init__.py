@@ -9,7 +9,7 @@ first-class webhook-receiving side for data pipelines.
 
 from __future__ import annotations
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from .client import AsyncEvoClient, EvoClient
 from .exceptions import (
