@@ -5,6 +5,7 @@ title: "evolution-whatsapp: a modern Python client for the Evolution API v2 (Wha
 version: 0.1.1
 date-released: 2026-07-14
 license: MIT
+doi: 10.5281/zenodo.21365896
 repository-code: "https://github.com/StrategicProjects/evolution-python"
 url: "https://strategicprojects.github.io/evolution-python/"
 keywords:

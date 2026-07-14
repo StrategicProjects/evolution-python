@@ -8,6 +8,7 @@
 [![Docs](https://github.com/StrategicProjects/evolution-python/actions/workflows/docs.yml/badge.svg)](https://strategicprojects.github.io/evolution-python/)
 [![CI](https://github.com/StrategicProjects/evolution-python/actions/workflows/ci.yml/badge.svg)](https://github.com/StrategicProjects/evolution-python/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-darkviolet.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/1269101622.svg)](https://doi.org/10.5281/zenodo.21365896)
 
 **`evolution-whatsapp`** is the Python twin of the R package
 [**`evolution`**](https://cran.r-project.org/package=evolution)
