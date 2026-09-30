@@ -6,7 +6,7 @@ repo_name: StrategicProjects/evolution-python
 
 # Footer mirrors the R pkgdown site (light-only, "developed by" + ecosystem blurb).
 copyright: >
-  Developed by André Leite, Diogo Bezerra and Hugo Vasconcelos —
+  Developed by André Leite, Diogo Bezerra, Hugo Vasconcelos, Marcos Wasiliew and Júlia Nascimento Barreto —
   part of an ecosystem of packages developed at the
   <a href="https://monitoramento.sepe.pe.gov.br">Secretaria Executiva de Monitoramento Estratégico</a>.
 

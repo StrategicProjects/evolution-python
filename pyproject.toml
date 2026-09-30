@@ -13,6 +13,8 @@ authors = [
   { name = "André Leite", email = "leite@castlab.org" },
   { name = "Hugo Vasconcelos", email = "hugo.vasconcelos@ufpe.br" },
   { name = "Diogo Bezerra", email = "diogo.bezerra@ufpe.br" },
+  { name = "Marcos Wasiliew", email = "marcos.wasiliew@gmail.com" },
+  { name = "Júlia Nascimento Barreto", email = "juliabarreto@gd.seplag.pe.gov.br" },
 ]
 maintainers = [
   { name = "André Leite", email = "leite@castlab.org" },

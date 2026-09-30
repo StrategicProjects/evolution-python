@@ -170,4 +170,4 @@ for where Python idioms intentionally differ.
 
 ## License
 
-MIT © 2026 André Leite, Hugo Vasconcelos & Diogo Bezerra. See [LICENSE](LICENSE).
+MIT © 2026 André Leite, Hugo Vasconcelos, Diogo Bezerra, Marcos Wasiliew & Júlia Nascimento Barreto. See [LICENSE](LICENSE).

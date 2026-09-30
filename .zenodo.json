@@ -6,18 +6,37 @@
   "creators": [
     {
       "name": "Leite, André",
-      "affiliation": "Universidade Federal de Pernambuco"
+      "affiliation": "Universidade Federal de Pernambuco",
+      "orcid": "0000-0002-4718-9766"
     },
     {
       "name": "Vasconcelos, Hugo",
-      "affiliation": "Universidade Federal de Pernambuco"
+      "affiliation": "Universidade Federal de Pernambuco",
+      "orcid": "0000-0001-6249-0920"
     },
     {
       "name": "Bezerra, Diogo",
-      "affiliation": "Universidade Federal de Pernambuco"
+      "affiliation": "Universidade Federal de Pernambuco",
+      "orcid": "0000-0002-1216-8674"
+    },
+    {
+      "name": "Wasiliew, Marcos",
+      "orcid": "0009-0004-4694-3159"
+    },
+    {
+      "name": "Nascimento Barreto, Júlia",
+      "orcid": "0009-0004-2851-7770"
     }
   ],
-  "keywords": ["whatsapp", "evolution-api", "messaging", "chatbot", "httpx", "async", "python"],
+  "keywords": [
+    "whatsapp",
+    "evolution-api",
+    "messaging",
+    "chatbot",
+    "httpx",
+    "async",
+    "python"
+  ],
   "related_identifiers": [
     {
       "relation": "isSupplementTo",
